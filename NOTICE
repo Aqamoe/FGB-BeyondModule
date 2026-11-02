@@ -1,0 +1,30 @@
+FGB BeyondModule
+Copyright 2026 Aqamoe (光水)
+
+This product includes a copy of fgb_module_api.h from FaceGaze Bridge
+(https://github.com/Aqamoe/FaceGaze-Bridge), licensed under the Apache
+License, Version 2.0. The header is resolved at build time from the release
+pinned in sdk.lock.json; this repository does not contain a copy of it.
+
+The shared-memory layout, field order and validity handling were informed by
+reading, and only reading, the following upstream projects:
+
+- BigscreenVR/VRCFT-Beyond (https://github.com/BigscreenVR/VRCFT-Beyond),
+  the official VRCFaceTracking module whose C# SharedGazeData declaration is
+  the primary reference for the wire format.
+- zenuru-merps/ResoniteBeyond2eDriver
+  (https://github.com/zenuru-merps/ResoniteBeyond2eDriver), an independent
+  C# reader of the same mapping.
+- Zakhazerd/vrupscale (https://github.com/Zakhazerd/vrupscale), an
+  independent C++ reader of the same mapping.
+- ClassicWasTaken/FaceTrackingBridge
+  (https://github.com/ClassicWasTaken/FaceTrackingBridge), which loads the
+  official module and documents the user-facing prerequisite.
+
+This repository is an independent C++ implementation of that community
+reverse-engineered wire format and contains none of their source code. The
+format has no official documentation; see docs/protocol.md for what is
+confirmed and what is not.
+
+Bigscreen and Beyond are trademarks of Bigscreen VR LLC. This project is not
+affiliated with or endorsed by Bigscreen.

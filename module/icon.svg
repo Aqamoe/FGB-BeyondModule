@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Bigscreen Beyond 眼追模块图标">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#161a26"/>
+  <path d="M8 26c8-6 40-6 48 0v9c-8 6-40 6-48 0z" fill="none" stroke="#3d4661" stroke-width="3"/>
+  <circle cx="24" cy="31" r="6.5" fill="#5aa9ff"/>
+  <circle cx="40" cy="31" r="6.5" fill="#5aa9ff"/>
+  <circle cx="25.5" cy="30" r="2.4" fill="#0f1118"/>
+  <circle cx="41.5" cy="30" r="2.4" fill="#0f1118"/>
+  <path d="M16 14h32" stroke="#3d4661" stroke-width="3" stroke-linecap="round"/>
+</svg>

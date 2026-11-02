@@ -1,0 +1,14 @@
+{
+  "ModuleId": "com.fgbbridge.beyond",
+  "ModuleName": "Bigscreen Beyond",
+  "AuthorName": "Aqamoe (光水)",
+  "Version": "0.1.0",
+  "ModuleDescription": "读取 Bigscreen 官方「Beyond Eyetracking」应用写的命名共享内存 VRCFTMemmapData，输出逐眼/合成注视方向与睁眼度。不需要 VRCFT，不注入进程。线格式为社区逆向，未在真机验证。",
+  "UsageInstructions": "1. 安装 Bigscreen 官方「Beyond Eyetracking」应用（Beyond 2e 眼追套件），完成眼追登记，并在应用中勾选 VRCFT 接收。2. 头显保持连接。3. 关闭 VRCFaceTracking：它和本模块抢同一个共享内存机制。4. 在「模块」页把 Bigscreen Beyond 设为启动并重启引擎。本模块为社区未验证实现（线格式无官方文档，靠逆向核对）。",
+  "ModulePageUrl": "https://github.com/Aqamoe/FGB-BeyondModule",
+  "ModuleIcon": "icon.svg",
+  "DllFileName": "beyond.dll",
+  "AbiVersion": 2,
+  "Capabilities": ["eyes", "gaze"],
+  "RoleHint": "gaze"
+}
